@@ -1,0 +1,35 @@
+------------header---------------
+
+
+<!DOCTYPE html>
+<html lang=\"pt-BR\">
+<head>
+<meta charset=\"UTF-8\">     
+<style>
+div.container { width: 100%; border: 1px solid gray;}
+header, footer {padding: 1em; color: white; background-color: green; clear: left; text-align: center;}
+"article {margin-left: 17px; padding: 1em; text-align: justify;}
+</style>
+</head>
+<body>
+<div class=\"container\">
+<header> <h1>Automação Residencial</h1> </header>
+<article>
+<h1>Módulo Relé</h1>
+<p>Bem vindo ao BeeSmartIOT. Você deve definir o nome do dispositivo, endereço do servidor e porta MQTT, sua rede WIFI e senha para que o dispositivo se comunique. Uma vez conectado, você poderá ter acesso a diversos servicos disponíveis para automação.</p>
+<form method='get' action='setting'>
+<p align=\"center\">
+
+
+
+------------footer---------------
+
+
+</p>
+</form>
+</article>
+<footer>Copyright &copy; BeeSmartIOT ver. {{VERSION}}
+</footer>
+</div>
+</body>
+</html>
